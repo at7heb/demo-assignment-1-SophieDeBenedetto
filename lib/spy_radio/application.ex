@@ -7,6 +7,7 @@ defmodule SpyRadio.Application do
 
   def start(_type, _args) do
     children = [
+      SpyRadio.SecureChannel
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

@@ -23,3 +23,6 @@ erl_crash.dump
 spy_radio-*.tar
 
 /log/*
+
+# ignore elixir_ls files
+/.elixir_ls/
